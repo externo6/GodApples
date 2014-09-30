@@ -1,0 +1,21 @@
+name: GodApples
+authors: [externo6]
+version: ${project.version}
+main: me.externo6.godapples.Main
+
+commands:
+  godapples:
+    description: Reload configuration
+    usage: |
+      /godapples reload
+    permission: godapples.admin
+
+permissions:
+  godapples.cooldown:
+    description: cooldown applies to using God Apples
+    default: true
+  godapples.use:
+    description: may use God Apples
+    default: true
+  godapples.admin:
+    default: op

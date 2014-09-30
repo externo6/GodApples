@@ -1,0 +1,11 @@
+# cooldown in milliseconds
+cooldown: 3000
+
+# show messages to player
+showMessage: true
+
+# messages sent to players.
+# values in {braces} are variables and will be replaced with actual values.
+messages:
+  cooldown: "§cGod Apple Cooldown remaining: {seconds} seconds."
+  notallowed: "§cYou dont have permission to use GodApples."
