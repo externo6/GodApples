@@ -1,13 +1,10 @@
 package me.externo6.godapples;
 
-import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerItemConsumeEvent;
-import org.bukkit.inventory.ItemStack;
-
 import static org.bukkit.Material.*;
 
 import java.util.*;
